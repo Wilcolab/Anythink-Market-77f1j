@@ -10,7 +10,6 @@ import {
 } from "../../constants/actionTypes";
 import placeholder from "../../imgs/placeholder.png"
 
-
 const mapStateToProps = (state) => ({
   ...state.item,
   currentUser: state.common.currentUser,
